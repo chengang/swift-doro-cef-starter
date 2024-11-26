@@ -39,6 +39,8 @@
 		761B9B642CF54C530050ABBC /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		761B9B662CF54C710050ABBC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		768913112CF5D1E2000C2D83 /* Chromium Embedded Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Chromium Embedded Framework.framework"; sourceTree = "<group>"; };
+		768913162CF5D4D7000C2D83 /* swift-cef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-cef.h"; sourceTree = "<group>"; };
+		768913172CF5D4FE000C2D83 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,8 @@
 				761B9B572CF54B960050ABBC /* ViewController.swift */,
 				761B9B642CF54C530050ABBC /* WindowController.swift */,
 				761B9B662CF54C710050ABBC /* main.swift */,
+				768913162CF5D4D7000C2D83 /* swift-cef.h */,
+				768913172CF5D4FE000C2D83 /* module.modulemap */,
 				761B9B592CF54B980050ABBC /* Assets.xcassets */,
 				761B9B5E2CF54B980050ABBC /* swift_doro_cef_starter.entitlements */,
 			);
@@ -305,6 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yikuyiku.swift.swift-doro-cef-starter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -333,6 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yikuyiku.swift.swift-doro-cef-starter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

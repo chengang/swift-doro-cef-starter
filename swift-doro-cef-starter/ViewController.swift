@@ -6,6 +6,7 @@
 //
 
 import Cocoa
+import SwiftCEF
 
 class ViewController: NSSplitViewController {
 

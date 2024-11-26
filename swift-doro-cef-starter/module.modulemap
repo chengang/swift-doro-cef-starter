@@ -1,0 +1,6 @@
+
+module SwiftCEF {
+    umbrella header "swift-cef.h"
+    link framework "Chromium Embedded Framework"
+    export *
+}
