@@ -10,7 +10,8 @@
 		761B9B562CF54B960050ABBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B9B552CF54B960050ABBC /* AppDelegate.swift */; };
 		761B9B582CF54B960050ABBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B9B572CF54B960050ABBC /* ViewController.swift */; };
 		761B9B5A2CF54B980050ABBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761B9B592CF54B980050ABBC /* Assets.xcassets */; };
-		761B9B5D2CF54B980050ABBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761B9B5B2CF54B980050ABBC /* Main.storyboard */; };
+		761B9B652CF54C530050ABBC /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B9B642CF54C530050ABBC /* WindowController.swift */; };
+		761B9B672CF54C710050ABBC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B9B662CF54C710050ABBC /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +19,9 @@
 		761B9B552CF54B960050ABBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		761B9B572CF54B960050ABBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		761B9B592CF54B980050ABBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		761B9B5C2CF54B980050ABBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		761B9B5E2CF54B980050ABBC /* swift_doro_cef_starter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swift_doro_cef_starter.entitlements; sourceTree = "<group>"; };
+		761B9B642CF54C530050ABBC /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		761B9B662CF54C710050ABBC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			children = (
 				761B9B552CF54B960050ABBC /* AppDelegate.swift */,
 				761B9B572CF54B960050ABBC /* ViewController.swift */,
+				761B9B642CF54C530050ABBC /* WindowController.swift */,
+				761B9B662CF54C710050ABBC /* main.swift */,
 				761B9B592CF54B980050ABBC /* Assets.xcassets */,
-				761B9B5B2CF54B980050ABBC /* Main.storyboard */,
 				761B9B5E2CF54B980050ABBC /* swift_doro_cef_starter.entitlements */,
 			);
 			path = "swift-doro-cef-starter";
@@ -120,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				761B9B5A2CF54B980050ABBC /* Assets.xcassets in Resources */,
-				761B9B5D2CF54B980050ABBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,22 +134,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				761B9B582CF54B960050ABBC /* ViewController.swift in Sources */,
+				761B9B652CF54C530050ABBC /* WindowController.swift in Sources */,
+				761B9B672CF54C710050ABBC /* main.swift in Sources */,
 				761B9B562CF54B960050ABBC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		761B9B5B2CF54B980050ABBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				761B9B5C2CF54B980050ABBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		761B9B5F2CF54B980050ABBC /* Debug */ = {
@@ -279,7 +272,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,7 +296,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
