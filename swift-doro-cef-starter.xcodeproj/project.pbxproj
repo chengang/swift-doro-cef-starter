@@ -12,7 +12,23 @@
 		761B9B5A2CF54B980050ABBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761B9B592CF54B980050ABBC /* Assets.xcassets */; };
 		761B9B652CF54C530050ABBC /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B9B642CF54C530050ABBC /* WindowController.swift */; };
 		761B9B672CF54C710050ABBC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B9B662CF54C710050ABBC /* main.swift */; };
+		768913132CF5D1F8000C2D83 /* Chromium Embedded Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768913112CF5D1E2000C2D83 /* Chromium Embedded Framework.framework */; };
+		768913142CF5D1F8000C2D83 /* Chromium Embedded Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 768913112CF5D1E2000C2D83 /* Chromium Embedded Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		768913152CF5D1F8000C2D83 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				768913142CF5D1F8000C2D83 /* Chromium Embedded Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		761B9B522CF54B960050ABBC /* swift-doro-cef-starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-doro-cef-starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +38,7 @@
 		761B9B5E2CF54B980050ABBC /* swift_doro_cef_starter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swift_doro_cef_starter.entitlements; sourceTree = "<group>"; };
 		761B9B642CF54C530050ABBC /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		761B9B662CF54C710050ABBC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		768913112CF5D1E2000C2D83 /* Chromium Embedded Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Chromium Embedded Framework.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768913132CF5D1F8000C2D83 /* Chromium Embedded Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				761B9B542CF54B960050ABBC /* swift-doro-cef-starter */,
+				768913112CF5D1E2000C2D83 /* Chromium Embedded Framework.framework */,
 				761B9B532CF54B960050ABBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +93,7 @@
 				761B9B4E2CF54B960050ABBC /* Sources */,
 				761B9B4F2CF54B960050ABBC /* Frameworks */,
 				761B9B502CF54B960050ABBC /* Resources */,
+				768913152CF5D1F8000C2D83 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +290,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -294,6 +318,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
