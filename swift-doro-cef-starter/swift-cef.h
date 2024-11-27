@@ -7,6 +7,7 @@
 
 #ifndef swift_cef_h
 
+#include "include/cef_version.h"
 #include "include/capi/cef_app_capi.h"
 
 #define swift_cef_h
