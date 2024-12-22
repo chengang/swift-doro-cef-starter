@@ -13,22 +13,22 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>130.1.16.0</string>
+	<string>131.3.5.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>16.0</string>
+	<string>5.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTSDKBuild</key>
-	<string>23A334</string>
+	<string>24A336</string>
 	<key>DTSDKName</key>
-	<string>macosx14.0</string>
+	<string>macosx15.0</string>
 	<key>DTXcode</key>
-	<string>1500</string>
+	<string>1600</string>
 	<key>DTXcodeBuild</key>
-	<string>15A240d</string>
+	<string>16A242d</string>
 	<key>SCMRevision</key>
-	<string>37382504fe66965a688029d08706ddadca7ceb46-refs/branch-heads/6723@{#1765}</string>
+	<string>81b36b9535e3e3b610a52df3da48cd81362ec860-refs/branch-heads/6778_155@{#8}</string>
 </dict>
 </plist>

@@ -1,1 +1,1 @@
-cef_binary_130.1.16+g5a7e5ed+chromium-130.0.6723.117_macosx64
+cef_binary_131.3.5+g573cec5+chromium-131.0.6778.205_macosarm64

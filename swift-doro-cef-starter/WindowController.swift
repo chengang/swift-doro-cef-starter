@@ -25,7 +25,7 @@ class WindowController: NSWindowController {
         super.windowWillLoad()
         
         let cef_version_major = cef_version_info(0)
-        let cef_version_minor = CEF_VERSION_MINOR
+        let cef_version_minor = cef_version_info(1)
         let cef_version_patch = cef_version_info(2)
         print("cef_version: \(cef_version_major).\(cef_version_minor).\(cef_version_patch)")
     }
